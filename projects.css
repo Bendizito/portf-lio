@@ -1,0 +1,17 @@
+#cabecalho a {
+  text-decoration: none;
+}
+
+table a {
+  font-weight: bold;
+  text-decoration: none;
+}
+table {
+  background-color: blueviolet;
+  color: black;
+  margin: 30px;
+}
+
+table a:hover {
+  color: azure;
+}
