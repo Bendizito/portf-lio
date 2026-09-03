@@ -1,0 +1,63 @@
+body{
+    background-color: lightgray;
+}
+
+#cabecalho{
+    padding: 5px;
+    border: 5px solid black;
+    background-color: bisque;
+
+}
+
+#cabecalho h1{
+    text-align: center;
+    color: green;
+    
+}
+
+#java{
+    float: right;
+    gap: 200px;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    background-color: lightskyblue;
+    padding: 1%;
+}
+
+#menu a{
+    display: inline-block;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: center;
+    color: darkred;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+#texto h2{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+
+.p{
+font-family:sans-serif;
+color: indigo;
+font-size: 20pt;
+text-align: center;
+padding-top: 15px;
+}
+#livrosTexto{
+    text-align: center;
+}
+#livrosImg{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin: 10px ;   
+}
+
