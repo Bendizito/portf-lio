@@ -1,63 +1,130 @@
-body{
-    background-color: lightgray;
+body {
+  background-color: lightgray;
 }
 
-#cabecalho{
-    padding: 5px;
-    border: 5px solid black;
-    background-color: bisque;
-
+h2 {
+  text-align: center;
 }
 
-#cabecalho h1{
-    text-align: center;
-    color: green;
-    
+#cabecalho {
+  padding: 5px;
+  border: 5px solid black;
+  background-color: bisque;
 }
 
-#java{
-    float: right;
-    gap: 200px;
-}
-#menu{
-    display: flex;
-    justify-content: center;
-    background-color: lightskyblue;
-    padding: 1%;
+#cabecalho h1 {
+  text-align: center;
+  color: green;
 }
 
-#menu a{
-    display: inline-block;
-    padding-left: 120px;
-    padding-right: 120px;
-    text-align: center;
-    color: darkred;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+#java {
+  float: right;
+  gap: 200px;
+}
+#menu {
+  display: flex;
+  justify-content: center;
+  background-color: lightskyblue;
+  padding: 1%;
 }
 
-
-#texto h2{
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+#menu a {
+  display: inline-block;
+  padding-left: 120px;
+  padding-right: 120px;
+  text-align: center;
+  color: darkred;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-
-.p{
-font-family:sans-serif;
-color: indigo;
-font-size: 20pt;
-text-align: center;
-padding-top: 15px;
-}
-#livrosTexto{
-    text-align: center;
-}
-#livrosImg{
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    margin: 10px ;   
+#menu a:hover {
+  color: black;
 }
 
+#texto h2 {
+  text-align: center;
+}
+
+.p {
+  font-family: sans-serif;
+  color: indigo;
+  font-size: 20pt;
+  text-align: center;
+  padding-top: 15px;
+}
+#livrosTexto {
+  text-align: center;
+}
+#livrosImg {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  padding: 0px 10px 0px 10px;
+}
+
+#feiTexto {
+  text-align: center;
+}
+
+#feiVideoMapa {
+  display: flex;
+  justify-content: center;
+}
+
+#feiVideoMapa iframe {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+}
+
+#contatos {
+  margin: 0 auto;
+  width: 50%;
+  border: 5px dashed red;
+  order: 1;
+  margin-bottom: 1%;
+}
+
+#contatos th {
+  color: red;
+  padding: 10px;
+}
+
+#contatos td {
+  padding: 10px;
+}
+#sites {
+  background-color: yellow;
+  margin: 10px auto;
+  width: 50%;
+  clear: both;
+  display: block;
+  order: 2;
+}
+
+#sites a {
+  color: darkred;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 150px;
+}
+
+#rodape {
+  background-color: bisque;
+  padding: 5px 0px 5px 0px;
+
+  height: 130px;
+}
+#rodape p {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+}
+
+#css {
+  float: right;
+}
